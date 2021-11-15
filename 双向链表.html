@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>双向链表</title>
+  </head>
+  <body>
+    <script src="./doublyLinkedList.js"></script>
+    <script>
+      const dbList = new DoublyLinkedList();
+      dbList.append("a");
+      dbList.append("b");
+      dbList.append("c");
+      dbList.append("d");
+      dbList.append("e");
+      console.log(dbList.size());
+      console.log(dbList.isEmpty());
+      console.log(dbList.getHead());
+      console.log(dbList.getTail());
+      console.log(dbList.toString());
+    </script>
+  </body>
+</html>
